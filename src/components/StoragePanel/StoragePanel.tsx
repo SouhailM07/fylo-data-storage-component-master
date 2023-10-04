@@ -9,8 +9,10 @@ export default function StoragePanel() {
         <div id="StoragePanel-top">
           <div id="StoragePanel-top-comment">
             <div id="StoragePanel-top-comment-text">
-              <span className="text-[2.7rem] text-black mr-2">185</span>
-              <span className="mt-2">GB LEFT</span>
+              <span className="text-[2.7rem] text-black mr-3">185</span>
+              <span className="mt-2 " style={{ wordSpacing: "3px" }}>
+                GB LEFT
+              </span>
             </div>
             <div id="panelCurve"></div>
           </div>

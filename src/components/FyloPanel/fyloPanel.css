@@ -4,7 +4,7 @@
 
 @layer components {
   #FyloPanel {
-    @apply h-[18rem] mr-[3rem] bg-DarkBlue rounded-tr-[10rem] rounded-xl w-[30rem] flex flex-col justify-evenly py-[0.2rem] items-start pl-[4rem];
+    @apply h-[18rem] mr-[3rem] bg-DarkBlue rounded-tr-[10rem] rounded-xl w-[44rem] flex flex-col justify-evenly py-[0.2rem] items-start pl-[4rem];
   }
   #FyloPanel ul {
     @apply flex justify-between w-[13rem];

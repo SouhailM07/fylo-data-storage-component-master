@@ -29,7 +29,7 @@
   }
 
   #StoragePanel-top-title {
-    @apply text-PaleBlue text-[1.5rem] relative top-[-4rem];
+    @apply text-PaleBlue text-[1.37rem] relative top-[-4rem];
   }
 
   #StoragePanel-top-title span {
