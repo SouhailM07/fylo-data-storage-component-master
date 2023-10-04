@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #StoragePanel {
+    @apply rounded-xl w-[50vw] h-[14rem] px-[3rem] bg-DarkBlue flex flex-col justify-evenly self-end;
+  }
+  #StoragePanel-top {
+    @apply flex  flex-col mb-[1rem] relative bottom-[0,6rem] h-[3rem];
+  }
+  #StoragePanel-top-comment {
+    @apply bg-white w-[14rem] h-[5.5rem] rounded-lg relative bottom-[5rem] self-end;
+  }
+
+  #StoragePanel-top-comment-text {
+    @apply h-full flex justify-center items-center text-GrayishBlue font-bold;
+  }
+
+  #StoragePanel-bottom-barContainer {
+    @apply bg-VeryDarkBlue p-[2px] rounded-xl mb-[1rem];
+  }
+  #StoragePanel-bottom-bar {
+    background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    @apply h-[1.2rem] w-[80%] rounded-xl flex justify-end items-center;
+  }
+  #StoragePanel-bottom-storageUnits {
+    @apply flex justify-between text-white text-[1.2rem];
+  }
+
+  #StoragePanel-top-title {
+    @apply text-PaleBlue text-[1.4rem] relative top-[-4rem];
+  }
+
+  #StoragePanel-top-title span {
+    @apply text-white font-medium;
+  }
+
+  #panelCurve {
+    transform: skew(0deg, 50deg) rotate(90deg);
+    @apply h-[1.5rem] w-[50px] bg-white relative left-[11.45rem] top-[-2rem];
+  }
+}

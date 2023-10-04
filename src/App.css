@@ -2,6 +2,6 @@ html {
   font-size: 62.5%;
 }
 
-.gradient {
-  background: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+body {
+  font-family: "Raleway";
 }
