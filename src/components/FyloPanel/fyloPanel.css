@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #FyloPanel {
+    @apply h-[16rem] bg-DarkBlue rounded-tr-[10rem] rounded-xl w-[30rem] flex flex-col justify-evenly items-center;
+  }
+  #FyloPanel ul {
+    @apply flex justify-between w-[13rem];
+  }
+  #FyloPanel li {
+    @apply flex h-[3.5rem] w-[3.5rem] justify-center items-center bg-VeryDarkBlue rounded-xl text-white;
+  }
+}
