@@ -1,6 +1,22 @@
-#container {
-  background-image: url("../../assets/images/bg-desktop.png");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100% 50%;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #container {
+    @apply h-screen bg-VeryDarkBlue flex items-center justify-center;
+    background-image: url("../../assets/images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 50%;
+  }
+}
+@media screen and (max-width: 910px) {
+  #container {
+    background-image: url("../../assets/images/bg-mobile.png");
+    background-size: 100%;
+  }
+  #flexContainer {
+    @apply flex-col justify-between h-[34rem];
+  }
 }
