@@ -3,20 +3,27 @@
 @tailwind utilities;
 
 @layer components {
-  #container {
-    @apply h-screen bg-VeryDarkBlue flex items-center justify-center;
+  body {
+    @apply bg-VeryDarkBlue;
     background-image: url("../../assets/images/bg-desktop.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 50%;
   }
-}
-@media screen and (max-width: 910px) {
+
   #container {
-    background-image: url("../../assets/images/bg-mobile.png");
-    background-size: 100%;
+    @apply h-screen  flex items-center justify-center;
   }
   #flexContainer {
-    @apply flex-col justify-between h-[32rem] border-2 border-white;
+    @apply w-[80vw];
+  }
+}
+@media screen and (max-width: 910px) {
+  body {
+    background-image: url("../../assets/images/bg-mobile.png");
+    background-size: cover;
+  }
+  #flexContainer {
+    @apply flex-col justify-between h-[33rem] w-[85vw];
   }
 }

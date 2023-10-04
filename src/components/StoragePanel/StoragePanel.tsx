@@ -21,7 +21,7 @@ export default function StoragePanel() {
           </p>
         </div>
         {/*  */}
-        <div>
+        <div id="StoragePanel-bottom">
           <div>
             <div id="StoragePanel-bottom-barContainer">
               <div id="StoragePanel-bottom-bar">

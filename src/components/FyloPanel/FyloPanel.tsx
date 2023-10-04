@@ -16,7 +16,7 @@ export default function FyloPanel() {
   return (
     <>
       <div id="FyloPanel">
-        <img src={fyloIcon} alt="FyloLogo" />
+        <img src={fyloIcon} alt="FyloLogo" className="h-[3.2rem]" />
         <ul>
           {arrOfIcons.map((e, i) => {
             return (
