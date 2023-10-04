@@ -17,6 +17,6 @@
     background-size: 100%;
   }
   #flexContainer {
-    @apply flex-col justify-between h-[34rem];
+    @apply flex-col justify-between h-[32rem] border-2 border-white;
   }
 }

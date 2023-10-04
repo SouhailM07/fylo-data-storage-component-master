@@ -13,3 +13,9 @@
     @apply flex h-[3.5rem] w-[3.5rem] justify-center items-center bg-VeryDarkBlue rounded-xl text-white;
   }
 }
+
+@media screen and (max-width: 910px) {
+  #FyloPanel {
+    @apply w-full m-0 h-[16rem];
+  }
+}
