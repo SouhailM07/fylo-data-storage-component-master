@@ -1,0 +1,6 @@
+#container {
+  background-image: url("../../assets/images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 50%;
+}
